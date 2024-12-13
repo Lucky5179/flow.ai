@@ -424,18 +424,6 @@
                           className: "flex flex-col gap-4 px-6",
                           children: [
                             (0, s.jsx)(x.Z, {
-                              label: "Buy $FlowAI",
-                              extraStyle: "bg-textBlack py-6",
-                              textColor: "text-white",
-                              handleClick: () => {
-                                t(!1),
-                                  window.open(
-                                    "https://doc.FlowAI.trade/",
-                                    "_blank"
-                                  );
-                              },
-                            }),
-                            (0, s.jsx)(x.Z, {
                               label: "Start Trading",
                               extraStyle: "bg-primary py-6",
                               textColor: "text-textBlack",
@@ -1016,16 +1004,7 @@
                         "font-medium text-[32px] text-center lg:text-start lg:text-5xl text-textBlack",
                       children: "frequently asked questions",
                     }),
-                    (0, s.jsx)(p.Z, {
-                      label: "Document",
-                      extraStyle: "".concat(
-                        e && e < 1100 ? "w-full" : "w-fit",
-                        " bg-background hover:bg-lightGray outline px-8 py-4"
-                      ),
-                      textColor: "text-textBlack",
-                      handleClick: () =>
-                        window.open("https://doc.FlowAI.trade/", "_blank"),
-                    }),
+
                   ],
                 }),
                 (0, s.jsx)("div", {
@@ -2154,15 +2133,43 @@
                     "font-normal text-xl text-center leading-6 tracking-[8%] uppercase text-textBlack",
                   children: "CA: 0x0000000000000000000000000000000",
                 }),
-                (0, s.jsx)(x.Z, {
-                  label: "Start Trading",
-                  extraStyle:
-                    "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-12 px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150",
-                  textColor: "text-white",
-                  handleClick: () => {
-                    window.open("https://app-flowx-ai.vercel.app/", "_blank");
-                  },
+                (0, s.jsxs)("div", {
+                  className:
+                    "flex flex-col mt-12 px-12",
+                  children: [
+                    (0, s.jsx)(x.Z, {
+                      label: "Buy $FlowAI",
+                      extraStyle:
+                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150",
+                      textColor: "text-white",
+                      handleClick: () => window.open("https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x0000000000000000000000000000000", "_blank"),
+                    }),
+                    (0, s.jsx)(x.Z, {
+                      label: "Start Trading",
+                      extraStyle:
+                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-6 px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150".concat(
+                          !1
+                        ),
+                      textColor: "text-white",
+                      handleClick: () => {
+                        window.open(
+                          "https://app-flowx-ai.vercel.app/",
+                          "_blank"
+                        );
+                      },
+                    }),
+                    
+                  ],
                 }),
+                // (0, s.jsx)(x.Z, {
+                //   label: "Start Trading",
+                //   extraStyle:
+                //     "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-12 px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150",
+                //   textColor: "text-white",
+                //   handleClick: () => {
+                //     window.open("https://app-flowx-ai.vercel.app/", "_blank");
+                //   },
+                // }),  
                 (0, s.jsxs)("div", {
                   className:
                     "absolute bottom-8 flex flex-col items-center cursor-pointer",

@@ -796,18 +796,6 @@
                           className: "flex flex-col gap-4 px-6",
                           children: [
                             (0, i.jsx)(d.Z, {
-                              label: "Buy $FlowAI",
-                              extraStyle: "bg-textBlack py-6",
-                              textColor: "text-white",
-                              handleClick: () => {
-                                t(!1),
-                                  window.open(
-                                    "https://doc.FlowAI.trade/",
-                                    "_blank"
-                                  );
-                              },
-                            }),
-                            (0, i.jsx)(d.Z, {
                               label: "Start Trading",
                               extraStyle: "bg-primary py-6",
                               textColor: "text-textBlack",
