@@ -2135,19 +2135,19 @@
                 }),
                 (0, s.jsxs)("div", {
                   className:
-                    "flex flex-col mt-12 px-12",
+                    "flex flex-rows mt-12 px-12",
                   children: [
                     (0, s.jsx)(x.Z, {
                       label: "Buy $FlowAI",
                       extraStyle:
-                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150",
+                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-3  px-12 py-6 mx-2 hover:outline hover:outline-textBlack transition-all duration-150",
                       textColor: "text-white",
                       handleClick: () => window.open("https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x0000000000000000000000000000000", "_blank"),
                     }),
                     (0, s.jsx)(x.Z, {
                       label: "Start Trading",
                       extraStyle:
-                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-6 px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150".concat(
+                        "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-3 px-12 py-6 mx-2 hover:outline hover:outline-textBlack transition-all duration-150".concat(
                           !1
                         ),
                       textColor: "text-white",
