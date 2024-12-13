@@ -435,7 +435,7 @@
                               textColor: "text-textBlack",
                               handleClick: () => {
                                 window.open(
-                                  "https://app-flowx-ai.vercel.app/",
+                                  "https://app.FlowAI.trade/",
                                   "_blank"
                                 );
                               },
@@ -629,20 +629,7 @@
                         (0, i.jsx)("p", {
                           className: "text-[#768398] text-center lg:text-start",
                           children:
-                            "\xa9 2023-2024 FlowAI. All rights reserved.",
-                        }),
-                        (0, i.jsxs)("p", {
-                          className:
-                            "text-center mt-2 opacity-50 text-[#768398] text-xs",
-                          children: [
-                            "Legal Disclaimer: ",
-                            x.ZL,
-                            " ",
-                            (0, i.jsx)(o.default, {
-                              href: "mailto:info@FlowAI.trade",
-                              children: "info@FlowAI.trade",
-                            }),
-                          ],
+                            "\xa9 2024 FlowAI. All rights reserved.",
                         }),
                         (0, i.jsxs)("div", {
                           className: "flex gap-6 lg:gap-8 mt-4 lg:mt-0 hidden",
@@ -676,21 +663,7 @@
                   children: [
                     (0, i.jsx)("p", {
                       className: "text-[#768398]",
-                      children: "\xa9 2023-2024 FlowAI. All rights reserved.",
-                    }),
-                    (0, i.jsxs)("p", {
-                      className:
-                        "text-center mt-2 opacity-50 text-[#768398] text-xs",
-                      children: [
-                        "Legal Disclaimer: ",
-                        x.ZL,
-                        " For inquiries, contact",
-                        " ",
-                        (0, i.jsx)(o.default, {
-                          href: "mailto:info@FlowAI.trade",
-                          children: "info@FlowAI.trade",
-                        }),
-                      ],
+                      children: "\xa9 2024 FlowAI. All rights reserved.",
                     }),
                     (0, i.jsx)("div", {
                       className: "flex gap-12 hidden",
@@ -840,7 +813,7 @@
                               textColor: "text-textBlack",
                               handleClick: () => {
                                 window.open(
-                                  "https://app-flowx-ai.vercel.app/",
+                                  "https://app.FlowAI.trade/",
                                   "_blank"
                                 );
                               },
@@ -968,7 +941,7 @@
                           ),
                         textColor: "text-textBlack",
                         handleClick: () => {
-                          window.open("https://app-flowx-ai.vercel.app/", "_blank");
+                          window.open("https://app.FlowAI.trade/", "_blank");
                         },
                       }),
                     ],

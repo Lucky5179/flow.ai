@@ -284,7 +284,7 @@
                   ref: l,
                   className:
                     "text-xs tracking-widest uppercase text-nowrap ml-5 opacity-0 text-white",
-                  children: "Earn $FlowAI on Ethereum",
+                  children: "Earn $FlowAI on Eth",
                 }),
                 (0, s.jsxs)("div", {
                   ref: t,
@@ -865,7 +865,7 @@
                                 (0, s.jsx)("h1", {
                                   className:
                                     "text-sm font-normal leading-[100%] tracking-[10%] uppercase text-textBlack",
-                                  children: e.header,
+                                  children: "e.header",
                                 }),
                                 (0, s.jsxs)("div", {
                                   className: "flex items-end gap-2",
@@ -873,7 +873,7 @@
                                     (0, s.jsx)("h1", {
                                       className:
                                         "text-2xl font-medium leading-[100%] tracking-[0%] text-textBlack",
-                                      children: e.value,
+                                      children: "-----",
                                     }),
                                     (0, s.jsx)("p", {
                                       className:
@@ -882,7 +882,7 @@
                                             ? "text-textGreen"
                                             : "text-textRed"
                                         ),
-                                      children: e.change,
+                                      children: "-----",
                                     }),
                                   ],
                                 }),
@@ -1128,39 +1128,7 @@
             return () => {
               e.kill();
             };
-          }, []),
-          (0, s.jsx)("div", {
-            ref: e,
-            className:
-              "w-screen max-w-[1664px] mb-24 lg:mb-32 flex justify-center items-center px-0 1.5xl:px-12 opacity-0",
-            children: (0, s.jsxs)("div", {
-              className:
-                "w-full flex flex-col gap-8 lg:gap-12 justify-center items-center py-24 lg:py-32 px-4 lg:px-12 rounded-[48px] bg-lightGray",
-              children: [
-                (0, s.jsx)("h1", {
-                  className:
-                    "font-medium text-[32px] text-center lg:text-start lg:text-5xl text-textBlack",
-                  children: "featured in",
-                }),
-                (0, s.jsx)("div", {
-                  className:
-                    "w-full h-full hidden lg:flex flex-col items-center justify-center",
-                  children: (0, s.jsx)(u, {
-                    cardColor: "bg-offWhite",
-                    cards: c.si,
-                  }),
-                }),
-                (0, s.jsx)("div", {
-                  className:
-                    "w-full h-full flex lg:hidden flex-col items-center justify-center",
-                  children: (0, s.jsx)(o.Z, {
-                    cardColor: "bg-offWhite",
-                    cards: c.si,
-                  }),
-                }),
-              ],
-            }),
-          })
+          }, [])
         );
       };
     },
@@ -1784,27 +1752,7 @@
                       }),
                     ],
                   }),
-                  (0, s.jsx)("div", {
-                    className: "hidden lg:flex justify-between items-end mt-8",
-                    children: x.Z9.map((e, t) =>
-                      (0, s.jsx)(
-                        n.default,
-                        {
-                          onClick: () => {
-                            e.link.length > 0 && window.open(e.link, "_blank");
-                          },
-                          className: ""
-                            .concat(t < 4 ? "static" : "hidden lg:flex", " ")
-                            .concat(e.link.length > 0 ? "cursor-pointer" : ""),
-                          src: e.icon,
-                          alt: "Logos",
-                          height: 25,
-                          unoptimized: !0,
-                        },
-                        t
-                      )
-                    ),
-                  }),
+
                 ],
               }),
             ],
@@ -2199,7 +2147,7 @@
                 (0, s.jsx)("p", {
                   className:
                     "font-normal text-2xl text-center leading-6 tracking-[8%] uppercase text-textBlack",
-                  children: "Dive into AI-powered trading, now on Ethereum",
+                  children: "Dive into AI-powered trading, now on Eth",
                 }),
                 (0, s.jsx)("p", {
                   className:
@@ -2275,59 +2223,7 @@
               return () => {
                 t.kill();
               };
-            }, []),
-            (0, s.jsx)("div", {
-              ref: e,
-              className:
-                "w-screen max-w-[1664px] mb-24 lg:mb-32 flex justify-center items-center px-0 1.5xl:px-12 opacity-0",
-              children: (0, s.jsxs)("div", {
-                className:
-                  "w-full flex flex-col gap-8 lg:gap-12 justify-center items-center py-24 lg:py-32 px-4 lg:px-12  rounded-[48px] bg-lightGray",
-                children: [
-                  (0, s.jsx)("h1", {
-                    className:
-                      "font-medium text-[32px] text-center lg:text-start lg:text-5xl text-textBlack",
-                    children: "supported by",
-                  }),
-                  (0, s.jsx)("div", {
-                    className:
-                      "hidden sm:flex justify-center items-center gap-4 lg:gap-8 flex-wrap",
-                    children: o.Z9.map((e, t) =>
-                      (0, s.jsx)(
-                        "div",
-                        {
-                          className:
-                            "w-full lg:w-[260px] h-[128px] flex justify-center items-center rounded-3xl bg-offWhite ".concat(
-                              e.link.length > 0 ? "cursor-pointer" : ""
-                            ),
-                          onClick: () => {
-                            e.link.length > 0 && window.open(e.link, "_blank");
-                          },
-                          children: (0, s.jsx)(i.default, {
-                            className: "".concat(
-                              0 === t ? "max-w-28" : "scale-110"
-                            ),
-                            src: e.icon,
-                            alt: "supported By ".concat(t),
-                            unoptimized: !0,
-                            loading: "lazy",
-                          }),
-                        },
-                        t
-                      )
-                    ),
-                  }),
-                  (0, s.jsx)("div", {
-                    className:
-                      "sm:hidden w-full h-full flex flex-col items-center justify-center",
-                    children: (0, s.jsx)(x.Z, {
-                      cardColor: "bg-offWhite",
-                      cards: o.Z9,
-                    }),
-                  }),
-                ],
-              }),
-            })
+            }, [])
           );
         });
     },
