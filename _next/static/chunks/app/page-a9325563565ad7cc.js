@@ -296,7 +296,7 @@
                         "hidden lg:flex justify-center bg-primary hover:bg-primaryHover py-3 px-8",
                       textColor: "text-textBlack",
                       handleClick: () =>
-                        window.open("https://app.FlowAI.trade/", "_blank"),
+                        window.open("https://app-flowx-ai.vercel.app/", "_blank"),
                     }),
                     (0, s.jsx)("div", {
                       className:
@@ -305,7 +305,7 @@
                         src: d,
                         alt: "right arrow",
                         onClick: () =>
-                          window.open("https://app.FlowAI.trade/", "_blank"),
+                          window.open("https://app-flowx-ai.vercel.app/", "_blank"),
                       }),
                     }),
                   ],
@@ -441,7 +441,7 @@
                               textColor: "text-textBlack",
                               handleClick: () => {
                                 window.open(
-                                  "https://app.FlowAI.trade/",
+                                  "https://app-flowx-ai.vercel.app/",
                                   "_blank"
                                 );
                               },
@@ -569,7 +569,7 @@
                           ),
                         textColor: "text-textBlack",
                         handleClick: () => {
-                          window.open("https://app.FlowAI.trade/", "_blank");
+                          window.open("https://app-flowx-ai.vercel.app/", "_blank");
                         },
                       }),
                     ],
@@ -1745,7 +1745,7 @@
                                 textColor: "text-textBlack",
                                 handleClick: () => {
                                   window.open(
-                                    "https://app.FlowAI.trade/",
+                                    "https://app-flowx-ai.vercel.app/",
                                     "_blank"
                                   );
                                 },
@@ -2212,7 +2212,7 @@
                     "text-base font-medium bg-textBlack hover:bg-transparent hover:text-textBlack mt-12 px-12 py-6 hover:outline hover:outline-textBlack transition-all duration-150",
                   textColor: "text-white",
                   handleClick: () => {
-                    window.open("https://app.FlowAI.trade/", "_blank");
+                    window.open("https://app-flowx-ai.vercel.app/", "_blank");
                   },
                 }),
                 (0, s.jsxs)("div", {

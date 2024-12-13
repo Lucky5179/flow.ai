@@ -435,7 +435,7 @@
                               textColor: "text-textBlack",
                               handleClick: () => {
                                 window.open(
-                                  "https://app.FlowAI.trade/",
+                                  "https://app-flowx-ai.vercel.app/",
                                   "_blank"
                                 );
                               },
@@ -840,7 +840,7 @@
                               textColor: "text-textBlack",
                               handleClick: () => {
                                 window.open(
-                                  "https://app.FlowAI.trade/",
+                                  "https://app-flowx-ai.vercel.app/",
                                   "_blank"
                                 );
                               },
@@ -968,7 +968,7 @@
                           ),
                         textColor: "text-textBlack",
                         handleClick: () => {
-                          window.open("https://app.FlowAI.trade/", "_blank");
+                          window.open("https://app-flowx-ai.vercel.app/", "_blank");
                         },
                       }),
                     ],
